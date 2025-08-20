@@ -30,7 +30,8 @@
     color: #fff;
     padding: 1rem;
     border-radius: 8px;
-    transition: all 0.1s ease;
+    transition: all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1); /* Smooth easing */
+
 }
 
 .pin-element.pinned {
@@ -48,6 +49,7 @@
     background: #ff4081;
     border-radius: 5px;
     margin-top: 0.5rem;
+    transition: transform 0.2s ease-out;
 }
 
 .scroll-content {
